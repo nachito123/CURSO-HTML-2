@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curso html</title>
+  </head>
+  <body>
+    <!--encabezado-->
+    <h1>titulo</h1>
+    <h2>titulo</h2>
+    <h3>titulo</h3>
+    <h4>titulo</h4>
+    <h5>titulo</h5>
+    <h6>titulo</h6>
+    <!--parrafo-->
+    <p>parrafo</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quae
+      necessitatibus perspiciatis excepturi nulla quia, officiis harum nostrum
+      at fuga eveniet corporis accusantium consequuntur odio odit et atque.
+      Temporibus, nobis.
+    </p>
+    <!--formato-->
+    <p><b>texto 1</b></p>
+    <!-- (b)negrilla-->
+    <p><small>texto 2</small></p>
+    <!-- (small)texto pequeño-->
+    <p><strong>texto 3</strong></p>
+    <!-- (strong)texto enfatisado-->
+    <p><i>texto 4</i></p>
+    <!-- (i)texto cursiva-->
+    <p><mark>texto 5</mark></p>
+    <!-- (i)texto resaltado-->
+    <p><del>texto 6</del></p>
+    <!-- (i)texto tachado-->
+    <p><ins>texto 6</ins></p>
+    <!-- (i)texto subrallado-->
+
+    <!--enlaces (link)-->
+    <a
+      href="https://www.youtube.com/watch?v=_gQLGP_YUwY&t=1580s"
+      target="_blank"
+      >video de este curso</a
+    >
+    <!--la etiqueta target con el atributo blank es para abrir el vinculo en una pestaña nueva-->
+
+    <!--atributos de etiqueta-->
+    <!--todas las etiquetas pueden tener atributos añaden informacion acerca del elemento, se añaden como parte de valores, pueden ir entre comillas simnples o dobles ejemplo id="2" title="nombre"-->
+
+    <h1 title="como contactarnos">contactanos</h1>
+
+    <!--listas-->
+    <!--(ul) etiqueta no ordenada-->
+    <ul>
+      <li>NOMBRE</li>
+      <li>EMAIL</li>
+      <li>TELEFONO</li>
+      <li>DIRECCION</li>
+      <li>PAIS</li>
+    </ul>
+    <!--(ol) etiqueta ordenada-->
+    <ol>
+      <li>NOMBRE</li>
+      <li>EMAIL</li>
+      <li>TELEFONO</li>
+      <li>DIRECCION</li>
+      <li>PAIS</li>
+    </ol>
+    <!--tablas-->
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>ID</th>
+          <th>NOMBRE</th>
+          <th>EMAIL</th>
+          <th>TELEFONO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>1</b></td>
+          <td>79655423</td>
+          <td>HERNAN</td>
+          <td>HEDADUDU</td>
+          <td>3214889536</td>
+        </tr>
+        <tr>
+          <td><b>2</b></td>
+          <td>22023139</td>
+          <td>maria</td>
+          <td>ESPIEL</td>
+          <td>321A953665</td>
+        </tr>
+        <tr>
+          <td><b>3</b></td>
+          <td>18953648</td>
+          <td>LINA</td>
+          <td>LINAJFJG</td>
+          <td>65689895</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <form action="recuperardatos.html/" method="post">
+      <div>
+        <label>nombre</label>
+        <input type="text" name="nombre" placeholder="ingresa tu nombre"
+      </div> <!--no entiendo el mensaje del error-->
+      <br />
+      <br />
+      <div>
+        <label>apellido</label>
+        <input type="text" name="apellido" placeholder="ingresa tu apellido"
+      </div>
+      <br />
+      <br />
+      <div>
+        <label>EMAIL</label>
+        <input type="email" name="email" placeholder="ingresa tu email"
+      </div>
+      <br />
+      <br />
+      <div>
+        <label>descripción</label>
+        <textarea name="descripcion"></textarea>
+      </div>
+      <br />
+      <div>
+        <h3>DEPORTES</h3>
+        <input type="radio" name="deportes" id="futbol" />
+        <label>futbol</label>
+      </div>
+      <div>
+        <input type="radio" name="deportes" id="natacion" />
+        <label>natacion</label>
+      </div>
+      <div>
+        <input type="radio" name="deportes" id="tenis" />
+        <label>tenis</label>
+      </div>
+      <div>
+        <h3>DATOS PERSONALES</h3>
+        <input type="tel" name="datos personales" id="telefono" />
+        <label for="telefono">telefono</label>
+      </div>
+    </form>
+  </body>
+</html>
